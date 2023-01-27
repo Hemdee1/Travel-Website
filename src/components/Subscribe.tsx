@@ -10,7 +10,10 @@ const Subscribe = () => {
   };
 
   return (
-    <section className="relative flex items-center max-w-full px-6 mx-auto mt-28 md:mt-40 sm:px-10 lg:px-32 w-fullScreen gap-11">
+    <section
+      className="relative flex items-center max-w-full px-6 mx-auto mt-28 md:mt-40 sm:px-10 lg:px-32 w-fullScreen gap-11"
+      data-aos="fade-up"
+    >
       <div className="px-3 md:px-10 w-[1170px] h-[350px] md:h-[407px] mx-auto max-w-full flex flex-col items-center justify-center gap-14 md:gap-12 lg:gap-20 bg-[#DFD7F9] bg-opacity-20 rounded-[20px] rounded-tl-[80px] md:rounded-tl-[130px] relative">
         <h2 className="text-base md:text-2xl lg:text-[33px] font-Poppins text-text-clr text-center font-semibold lg:leading-[54px]">
           Subscribe to get information, latest news and other interesting offers

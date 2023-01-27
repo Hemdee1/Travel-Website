@@ -9,14 +9,19 @@ const BookYourTrip = () => {
   return (
     <section className="relative flex flex-col items-center justify-between max-w-full gap-20 px-8 mx-auto mt-40 xl:gap-0 xl:flex-row w-fullScreen sm:px-32">
       <div className="w-[500px] max-w-full">
-        <h2 className="subtitle">Easy and Fast</h2>
-        <h1 className="title">Book your next trip in 3 easy steps</h1>
+        <h2 className="subtitle" data-aos="fade-up">
+          Easy and Fast
+        </h2>
+        <h1 className="title" data-aos="fade-up">
+          Book your next trip in 3 easy steps
+        </h1>
         <div className="flex flex-col gap-12 mt-8">
           {tripSteps.map((step, index) => {
             const { title, Icon } = step;
 
             return (
               <article
+                data-aos="fade-up"
                 key={index}
                 className="flex gap-5 text-text-clr font-Poppins"
               >
@@ -34,7 +39,10 @@ const BookYourTrip = () => {
         </div>
       </div>
 
-      <div className="px-3 sm:px-6 py-3 sm:py-5 rounded-[26px] shadow-2xl bg-white shadow-gray-300 relative">
+      <div
+        className="px-3 sm:px-6 py-3 sm:py-5 rounded-[26px] shadow-2xl bg-white shadow-gray-300 relative"
+        data-aos="fade-up"
+      >
         <img src="/images/greece.png" alt="greece" />
         <div className="mt-6 tracking-wider font-Poppins">
           <h1 className="font-bold text-[18px] text-[#080809]">

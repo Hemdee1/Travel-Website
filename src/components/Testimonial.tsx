@@ -26,14 +26,19 @@ const Testimonial = () => {
   };
 
   return (
-    <section className="relative flex flex-col items-center justify-between max-w-full gap-16 pl-10 pr-4 sm:pr-10 mx-auto xl:flex-row w-fullScreen xl:gap-0 lg:pl-32 mt-52 xl:items-start">
+    <section className="relative flex flex-col items-center justify-between max-w-full gap-16 pl-10 pr-4 mx-auto sm:pr-10 xl:flex-row w-fullScreen xl:gap-0 lg:pl-32 mt-52 xl:items-start">
       <div>
-        <h2 className="subtitle">Testimonials</h2>
-        <h1 className="title">
+        <h2 className="subtitle" data-aos="fade-up">
+          Testimonials
+        </h2>
+        <h1 className="title" data-aos="fade-up">
           What people say <br /> about Us.
         </h1>
 
-        <div className="flex items-center justify-center mt-12 md:mt-20 xl:justify-start gap-7">
+        <div
+          className="flex items-center justify-center mt-12 md:mt-20 xl:justify-start gap-7"
+          data-aos="fade-up"
+        >
           <span
             className={`w-3 h-3 rounded-full duration-300 transition-all ${
               value === 0 ? "bg-[#39425D]" : "bg-[#E5E5E5]"
@@ -52,8 +57,8 @@ const Testimonial = () => {
         </div>
       </div>
 
-      <div className="w-full xl:w-auto">
-        <div className="flex justify-center pr-6 md:pr-0 flex-col md:flex-row w-full gap-0 md:gap-10">
+      <div className="w-full xl:w-auto" data-aos="fade-up">
+        <div className="flex flex-col justify-center w-full gap-0 pr-6 md:pr-0 md:flex-row md:gap-10">
           <div className="relative w-[500px] min-h-[350px] md:min-h-0 max-w-full">
             <article className={returnAnimatedClass(0)}>
               <div className="relative w-full h-full p-4 md:p-10">

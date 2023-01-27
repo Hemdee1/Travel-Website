@@ -5,14 +5,19 @@ import DecoreRingIcon from "./icons/decoreRingIcon";
 const Destination = () => {
   return (
     <section className="max-w-full px-10 mx-auto mt-40 text-center sm:px-20 w-fullScreen">
-      <h2 className="mb-2 subtitle">Top Selling</h2>
-      <h1 className="title">Top Destinations</h1>
+      <h2 className="mb-2 subtitle" data-aos="fade-up">
+        Top Selling
+      </h2>
+      <h1 className="title" data-aos="fade-up">
+        Top Destinations
+      </h1>
       <div className="relative flex flex-wrap justify-center mt-16 gap-9">
         {destinations.map((data, index) => {
           const { city, price, trip, image } = data;
 
           return (
             <article
+              data-aos="fade-up"
               key={index}
               className="w-[314px] h-[300px] sm:h-[457px] rounded-3xl shadow-2xl shadow-gray-200 relative transition-all duration-500 hover:scale-105 hover:shadow-gray-300"
             >

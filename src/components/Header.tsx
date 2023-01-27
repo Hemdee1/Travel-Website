@@ -93,7 +93,7 @@ const Header = () => {
 
           {/* red background on dropdown nav on mobile screens */}
           <span className="absolute top-0 right-0 z-[-2] bg-white w-full h-full block xl:hidden"></span>
-          <span className="absolute top-0 right-0 z-[-1] w-[800px] h-[800px] overflow-hidden block xl:hidden">
+          <span className="absolute top-0 right-0 z-[-1] sm:w-[800px] w-full sm:h-[800px] h-full overflow-hidden block xl:hidden">
             <Decore />
           </span>
         </nav>

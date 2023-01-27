@@ -7,7 +7,10 @@ import TwitterIcon from "./icons/twitter";
 
 const Footer = () => {
   return (
-    <footer className="max-w-full px-10 mx-auto sm:px-24 w-fullScreen mt-52 font-Poppins">
+    <footer
+      className="max-w-full px-10 mx-auto sm:px-24 w-fullScreen mt-52 font-Poppins"
+      data-aos="fade-up"
+    >
       <div className="flex flex-col items-center justify-between gap-16 xl:flex-row xl:gap-0 xl:items-start">
         <div className="flex flex-col items-center xl:items-start">
           <Logo />
