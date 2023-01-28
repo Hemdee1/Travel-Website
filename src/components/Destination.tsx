@@ -17,12 +17,12 @@ const Destination = () => {
 
           return (
             <article
-              data-aos="fade-up"
               key={index}
               className="w-[314px] h-[300px] sm:h-[457px] rounded-3xl shadow-2xl shadow-gray-200 relative transition-all duration-500 hover:scale-105 hover:shadow-gray-300"
             >
               <img
                 src={image}
+                data-aos="fade-up"
                 alt="rome"
                 className="w-full h-[95%] object-cover rounded-3xl"
               />

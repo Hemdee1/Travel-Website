@@ -31,11 +31,11 @@ const Hero = () => {
           Preferred to sportsmen it engrossed listening. Park gate <br /> sell
           they west hard for the.
         </h5>
-        <div className="flex flex-col items-start sm:items-center sm:flex-row gap-11">
-          <button
-            className="py-3 sm:py-5 px-5 sm:px-7 rounded-xl bg-[#F1A501] font-semibold font-sans shadow-xl shadow-[#df695166] text-white text-[15px] sm:text-[18px] transition-transform duration-300 hover:scale-105"
-            data-aos="fade-up"
-          >
+        <div
+          className="flex flex-col items-start sm:items-center sm:flex-row gap-11"
+          data-aos="fade-up"
+        >
+          <button className="py-3 sm:py-5 px-5 sm:px-7 rounded-xl bg-[#F1A501] font-semibold font-sans shadow-xl shadow-[#f1a50167] text-white text-[15px] sm:text-[18px] transition-all duration-300 hover:scale-105">
             Find out more
           </button>
           <button className="flex items-center gap-5 group" data-aos="fade-up">
