@@ -9,12 +9,14 @@ const Hero = () => {
         <h2
           className="font-bold text-[14px] md:text-[18px] text-[#DF6951] uppercase"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           Best Destinations around the world
         </h2>
         <h1
           className="text-[#181E4B] font-Volkhov font-bold text-[38px] md:text-[84px] leading-[70px] md:leading-[89px] relative"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           Travel, enjoy <br />
           and live a new <br />
@@ -26,6 +28,7 @@ const Hero = () => {
         <h5
           className="font-semibold text-[14px] md:text-[18px] leading-[30px] text-[#5E6282] tracking-wider"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           Built Wicket longer admire do barton vanity itself do in it. <br />
           Preferred to sportsmen it engrossed listening. Park gate <br /> sell
@@ -34,11 +37,16 @@ const Hero = () => {
         <div
           className="flex flex-col items-start sm:items-center sm:flex-row gap-11"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <button className="py-3 sm:py-5 px-5 sm:px-7 rounded-xl bg-[#F1A501] font-semibold font-sans shadow-xl shadow-[#f1a50167] text-white text-[15px] sm:text-[18px] transition-all duration-300 hover:scale-105">
             Find out more
           </button>
-          <button className="flex items-center gap-5 group" data-aos="fade-up">
+          <button
+            className="flex items-center py-3 gap-5 group"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <span className="w-[40px] sm:w-[52px] h-[40px] sm:h-[52px] rounded-full bg-[#DF6951] flex justify-center items-center shadow-xl shadow-[#df695166] transition-transform duration-300 group-hover:scale-110">
               <PlayIcon />
             </span>
@@ -49,7 +57,11 @@ const Hero = () => {
         </div>
       </div>
       <div className="absolute inset-0 left-0 xl:left-auto top top-10 md:top-32">
-        <div className="relative pr-5" data-aos="fade-up">
+        <div
+          className="relative pr-5"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <img
             src="/images/hero.png"
             alt="hero-image"
