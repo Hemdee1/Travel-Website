@@ -32,7 +32,7 @@ const Hero = () => {
         >
           Built Wicket longer admire do barton vanity itself do in it. <br />
           Preferred to sportsmen it engrossed listening. Park gate <br /> sell
-          they west hard for the.
+          they west hard for.
         </h5>
         <div
           className="flex flex-col items-start sm:items-center sm:flex-row gap-11"
