@@ -16,7 +16,7 @@ const Footer = () => {
           <Logo />
           <p className="mt-5 tracking-wide text-text-clr">
             Book your trip in minute, get full <br />
-            control for much longer
+            control for much longer..
           </p>
         </div>
         <div className="flex flex-wrap gap-10 md:gap-32 xl:gap-16">
